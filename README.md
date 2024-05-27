@@ -1,6 +1,6 @@
 # Predicting antimicrobial resistance with hypercubic inference
 
-This repository contains the complete pipeline for my poster at the Norwegian Bioinformatics Days. To generate all the plots run `Rscript run_all.R` from the root repository directory. The plotting code depends on `ggplot2`, `ggupset`, `tidyverse`, `plyr` and `tmap`. All of these dependencies are required for each plot. 
+This repository contains the complete pipeline for my poster at the Norwegian Bioinformatics Days. To generate all the plots run `Rscript run_all.R` from the root repository directory. The plotting code depends on `ggplot2`, `ggupset`, `tidyverse`, `plyr` and `tmap`. Not all of these dependencies are required for each plot, each plotting function in the scripts load only the needed dependencies. If you only need one of these, check the script for which are required.
 
 To run the model you must also to clone the [hypertraps-ct](https://github.com/StochasticBiology/hypertraps-ct) repository, and have `Rcpp`, `ape` and `phangorn` installed. Hypertraps-ct should be in a neighbouring folder to this repository on you computer. Alternatively you can change the hypertraps.path parameter in run\_hypertraps.R. Uncomment `model.fit <- run.hypertraps()` in run\_all.R and remove the line loading the precalculated data. Running the model should take less than 20 minutes.
 

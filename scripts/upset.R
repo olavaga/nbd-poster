@@ -29,11 +29,6 @@ plot.upset <- function() {
     xlab("Antibiotic resistance gene profiles") +
     theme_classic(base_size=24) +
     theme.poster
-  
-  sf <- 0.7
-  svg("upset-plot.svg", width=16*sf, height=10*sf)
-  upset.plot
-  dev.off()
-  
+
   return(upset.plot)  
 }

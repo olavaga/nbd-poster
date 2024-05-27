@@ -62,8 +62,5 @@ plot.world.map <- function() {
                 legend.format=list(text.separator="to")) +
                 tm_layout(bg.color = uib.red[[10]])
   
-  svg("worldmap_poster.svg", width=8, height=5)
-  map.plot
-  dev.off()
   return (map.plot)
 }

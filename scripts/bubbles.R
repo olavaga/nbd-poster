@@ -15,10 +15,5 @@ plot.bubbles <- function(model.fit) {
     scale_y_continuous(breaks=0:4, labels=unique(bubbles$Name)) +
     theme.poster
   
-  sf<-35
-  png("bubbles-germany.png", width=400*sf, height=180*sf,res=72*sf)
-  bubbles.plot
-  dev.off()
-  
   return (bubbles.plot)
 }

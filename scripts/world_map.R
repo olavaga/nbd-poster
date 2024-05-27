@@ -60,7 +60,7 @@ plot.world.map <- function() {
                 breaks=c(1, 101, 501, 1001, 5001, 10001, 15000),
                 textNA="No samples",
                 legend.format=list(text.separator="to")) +
-                tm_layout(bg.color = "#fef9f1")
+                tm_layout(bg.color = uib.red[[10]])
   
   svg("worldmap_poster.svg", width=8, height=5)
   map.plot

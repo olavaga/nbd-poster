@@ -8,7 +8,7 @@ This repository contains code to carry out the complete pipeline for my poster a
 
 # Upset-plot
 
-![Upset plot of the different resistance gene profiles](figures/upset_poster.svg "Upset plot over *Klebsiella pneumoniae* resistance profiles)
+![Upset plot of the different resistance gene profiles](figures/upset_poster.svg "Upset plot over *Klebsiella pneumoniae* resistance profiles")
 
 # Hypercube illustration
 

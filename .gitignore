@@ -2,6 +2,10 @@
 .Rhistory
 .Rapp.history
 
+# Temporary file directories
+raw
+clean
+
 # Session Data files
 .RData
 .RDataTmp

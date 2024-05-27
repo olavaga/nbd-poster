@@ -2,7 +2,7 @@
 
 This repository contains the complete pipeline for my poster at the Norwegian Bioinformatics Days. To generate all the plots run `Rscript run_all.R` from the root repository directory. The plotting code depends on `ggplot2`, `ggupset`, `tidyverse`, `plyr` and `tmap`. All of these dependencies are required for each plot. 
 
-To run the model you must also to clone the [hypertraps-ct](https://github.com/StochasticBiology/hypertraps-ct) repository, and have `Rcpp`, `ape` and `phangorn` installed. Hypertraps-ct should be in a neighbouring folder to this repository on you computer. Alternatively you can change the hypertraps.path parameter in run\_hypertraps.R. Uncomment `model.fit <- run\_hypertraps()` in run\_all.R and remove the line loading the precalculated data. Running the model should take less than 20 minutes.
+To run the model you must also to clone the [hypertraps-ct](https://github.com/StochasticBiology/hypertraps-ct) repository, and have `Rcpp`, `ape` and `phangorn` installed. Hypertraps-ct should be in a neighbouring folder to this repository on you computer. Alternatively you can change the hypertraps.path parameter in run\_hypertraps.R. Uncomment `model.fit <- run.hypertraps()` in run\_all.R and remove the line loading the precalculated data. Running the model should take less than 20 minutes.
 
 All data, apart from the newick-trees, is downloaded from [pathogen.watch](pathogen.watch) with the download\_pathogenwatch.R script. 
 
